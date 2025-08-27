@@ -1,0 +1,9 @@
+*
+!.config/
+!.config/nvim/
+!.config/tmux/
+!.config/ghostty/
+!.config/nvim/**
+!.config/tmux/**
+!.config/ghostty/**
+!.config/ghostty/**
