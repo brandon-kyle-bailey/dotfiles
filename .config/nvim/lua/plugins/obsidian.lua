@@ -22,6 +22,7 @@ return {
     daily_notes = {
       folder = "notes/dailies",
       date_format = "%Y %b %a %d",
+      template = "_templates/dailies.md",
     },
 
     picker = {
