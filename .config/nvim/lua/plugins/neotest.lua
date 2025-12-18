@@ -9,7 +9,7 @@ return {
       -- Adapters
       "nvim-neotest/neotest-python",
       "nvim-neotest/neotest-jest",
-      "nvim-neotest/neotest-go",
+      "fredrikaverpil/neotest-golang",
     },
     config = function()
       require("neotest").setup({
@@ -28,8 +28,8 @@ return {
           }),
 
           -- Go
-          require("neotest-go")({
-            args = { "-v" },
+          require("neotest-golang")({
+            go_test_args = { "-v", "-count=1" },
           }),
         },
       })

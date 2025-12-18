@@ -5,7 +5,7 @@ return {
   event = "VeryLazy",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    "nvim-telescope/telescope.nvim", -- make sure this is included
+    "nvim-telescope/telescope.nvim",
   },
   opts = {
     workspaces = {
